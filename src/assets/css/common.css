@@ -1,0 +1,24 @@
+:root {
+  --primary-color:#ff9854;
+  --line-color:#f7f7f7;
+  --theme-linear-color:linear-gradient(90deg, #fa8c1d, #fcaf3f);
+  
+    /* 全局修改: 修改search样式 */
+    --van-primary-color: var(--primary-color);
+    --van-search-left-icon-color: var(--primary-color) !important;
+}
+
+.top-bar-hidden {
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.icon_check {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../img/detail/icon_check.png) 0 0 / 100% 100%;
+}
